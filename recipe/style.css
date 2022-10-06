@@ -1,0 +1,23 @@
+  body{
+font-family: 'Chewy'; monospace;
+font-size: 1.125rem;
+line-height: 1.6em;
+width: 960px;
+margin-left:auto;
+margin-right:auto;
+border: dotted 2px #c99fd1;
+padding: 1em;
+border-radius: 20px;
+  }
+
+  h1, h2{
+    font-family: 'Fredoka One' cursive;
+    color: #c99fd1;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+  li{
+    margin-bottom:1em;
+  }
