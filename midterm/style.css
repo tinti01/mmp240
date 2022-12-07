@@ -1,0 +1,100 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  color:#fff;
+}
+
+#wrapper{
+  max-width:1200px;
+margin:0 auto;
+}
+
+header{
+  background:
+  linear-gradient(180deg, rgba(1,1,1,0) 87%, rgba(54,232,171,1) 88%, rgba(1,1,1,1) 100%),
+  url("images/tucaandbertie.jpeg") center top no-repeat;
+  padding: 2em;
+  height: 340px;
+
+}
+
+h1 img {
+  max-width: 100%;
+  padding-top: 7.5em;
+}
+
+.col{
+  color: #fff;
+  width:48%
+
+}
+
+.col-left{
+  float:left;
+}
+
+.col-right{
+  float:right;
+  padding-left: 0.9em;
+  padding-top: 3.5em;
+
+}
+
+
+footer{
+  clear:both;
+}
+
+nav{
+  background-color: #36e8ab00;
+  margin-top: -3.4em;
+  margin-bottom:2em;
+
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#e7e3e3;
+  text-decoration: underline;
+}
+
+nav li{
+  display:inline;
+  padding: 0 1em;
+}
+
+.tv-ma{
+  border:solid 1px #fff;
+  padding: 0 3px;
+  font-size: smaller;
+
+}
+
+main{
+  margin-bottom: 3em;
+  overflow: auto;
+}
+
+ /* Episode page */
+
+
+ .episode-card{
+   width: 30%;
+ }
+
+
+ .episodes{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+
+ .responsive-img{
+   width: 100%;
+ }
