@@ -1,0 +1,135 @@
+/* Design @ CUNY Styles */
+
+
+
+
+body{
+  font-family:
+  color:
+  margin:
+}
+
+
+#wrapper{
+  max-width:1200px;
+  padding: 1em;
+
+}
+
+
+p, h1, h2, h3, h4{
+  margin-bottom: 1em;
+}
+
+
+h1, h2, h3, h4{
+  font-weight: bold;
+}
+
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: grey;
+}
+
+
+.button{
+  display:block;
+  padding:0.5em;
+  color:#fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: normal;
+  width: fit-content;
+  margin: 1em;
+}
+
+
+.img-responsive{
+  width:100%;
+}
+
+/* header navigation */
+
+.site-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.menu{
+  display: none;
+}
+
+
+.show-menu{
+  background-color: transparent;
+  border: none;
+}
+
+
+.search-programs{
+  min-height: 8ems;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: lightblue;
+
+}
+
+
+.dropdown li{
+  display:
+  padding:;
+}
+
+
+.search-programs li{
+  display: inline-block;
+
+}
+
+
+.search-programs li:hover{
+display:block;
+}
+
+.hero-banner{
+  min-height: 12em;
+  background-color: pink;
+  padding: 1em;
+  margin-bottom:1em;
+}
+
+.events img{
+  width: 100%;
+}
+
+@media (min-width: 768px){
+
+  .show-menu{
+    display: none;
+  }
+
+  .menu{
+    display:flex;
+  }
+  .menu li{
+    display: inline;
+    margin-right: 2em;
+  }
+
+  .layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+  }
+
+} /* Closing media query */
