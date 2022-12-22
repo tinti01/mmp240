@@ -1,5 +1,5 @@
 function showMenu(){
-        var  menu = document.getElementById("dropmenu");
+        var  menu = document.getElementById("show-menu.js");
         if  (menu.style.display==="none"){
             menu.style.display="block";
         } else {

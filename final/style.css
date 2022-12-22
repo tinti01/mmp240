@@ -4,9 +4,11 @@
 
 
 body{
-  font-family:
-  color:
-  margin:
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    color:#fff;
+  }
 }
 
 
@@ -24,8 +26,12 @@ p, h1, h2, h3, h4{
 
 h1, h2, h3, h4{
   font-weight: bold;
+
 }
 
+h1{
+  box-shadow: 5px 20px 10px 0 rgba(0, 0, 0, 0.5), 20px 5px 5px 0 hotpink;
+}
 
 a{
   color:black;
@@ -76,41 +82,71 @@ a:hover{
 
 .search-programs{
   min-height: 8ems;
-  border: solid 1px #ccc;
+  border: solid 1.5px #000000;
   border-radius: 10px;
-  padding: 1em;
-  margin-bottom: 1em;
-  background-color: lightblue;
+  padding: 2.5em;
+  margin-bottom: 2em;
+  background-color:#fff;
 
 }
 
-
-.dropdown li{
-  display:
-  padding:;
-}
 
 
 .search-programs li{
-  display: inline-block;
+  display:block;
 
 }
 
 
-.search-programs li:hover{
+
+.search-programs li:hover .dropdown{
 display:block;
 }
 
+
+.program-menu li{
+  display:inline-block;
+  margin-right: 15em;
+
+}
+
+
+
+
+.dropdown li{
+  display:block;
+  border: solid 1px #fff;
+  padding:0.5em 2em;
+  margin-right: 0;
+}
+
+.dropdown{
+  background-color: #e3e3e3;
+  padding:0;
+  position:absolute;
+  display: none;
+}
+
+
 .hero-banner{
   min-height: 12em;
-  background-color: pink;
+  background-image: url("images/queenscollege.jpg");
   padding: 1em;
   margin-bottom:1em;
+  height:300px
+
 }
+
+.hero-banner a{
+  color:white;
+}
+
+
 
 .events img{
   width: 100%;
 }
+
 
 @media (min-width: 768px){
 
@@ -131,5 +167,12 @@ display:block;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 1em;
   }
+
+.program-card{
+  width: 70%;
+}
+
+.
+
 
 } /* Closing media query */
